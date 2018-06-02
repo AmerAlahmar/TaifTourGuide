@@ -31,26 +31,26 @@ public class MuseumsFragment extends Fragment implements PlaceAdapter.OnItemPres
         places = new ArrayList<>();
         placeAdapter = new PlaceAdapter();
         places.add(new Place(R.drawable.shubra,
-                "Shubra Palace",
-                "A great historical building used by several generations of Royal families and governors of AlHijaz and Saudi Royal family.",
-                "Shubra Palace is a museum in Taif. The building was completed in 1325 AH and the construction took 3 years. King Abdul-Aziz lived in the palace and King Faisal used it as a headquarters for the council of the ministry of defense and aviation.\n\nGuided tours are available here. However, bear in mind that this place is not wheelchair-friendly and you will need to go up the stairs in order to have a complete tour of the museum.",
+                getString(R.string.shubraName),
+                getString(R.string.shubraShortDesc),
+                getString(R.string.shubraLongDesc),
                 Place.NO_PHONE,
-                "Friday: Closed.\nOther days: 9 AM - 6 PM.",
-                "21.286310,40.414985"));
+                getString(R.string.shubraWh),
+                getString(R.string.shubraLocation)));
         places.add(new Place(R.drawable.sharif,
-                "Sharif Museum",
-                "This is a collection of everything from Arabic home living crammed into a series of rooms decorated like local houses.",
-                "Al-Sharif Museum is one of the museums of the Makkah Region in Taif Governorate. It was founded on the back of Meles Al-Sharif. It is a national museum inside a large building of 5000 square meters. It contains a large collection of heritage pieces of all kinds, functions, and materials. On a small market is a group of stalls or shops and make each shop for a specific craft and added to the tools and machines that belong to the craft, and the museum contains the halls of each group, such as weapons of swords, guns, daggers and spears in the hall alone, as well as coffee tools in a dedicated place and utensils Cooking in place and do Agriculture, clothing, and ornaments.",
+                getString(R.string.sharifName),
+                getString(R.string.sharifShortDesc),
+                getString(R.string.sharifLongDesc),
                 Place.NO_PHONE,
-                "All week: 10 AM - 12 PM, 4 PM - 8 PM.",
-                "21.242962,40.447022"));
+                getString(R.string.sharifWh),
+                getString(R.string.sharifLocation)));
         places.add(new Place(R.drawable.okaz,
-                "Okaz Market",
-                "Historical museum and market.",
-                "The most popular Arab gatherings to perform Hajj before Islam, a forum for thought, literature, and poetry, where there are performances of folk art in the market center, and the visitor can arrive there by his own car or accompanied by a tourist group.",
-                "+966550068777",
-                "27 June - 13 July: 10 Am - 12 PM.",
-                "21.467267,40.645324"));
+                getString(R.string.okazName),
+                getString(R.string.okazShortDesc),
+                getString(R.string.okazLongDesc),
+                getString(R.string.okazPhone),
+                getString(R.string.okazWh),
+                getString(R.string.okazLocation)));
         return rootView;
     }
 
