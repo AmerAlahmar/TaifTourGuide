@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Taif Tour Guide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_about">About</string>
+    <string name="phoneTitle">Phone:</string>
+    <string name="whTitle">Working Hours:</string>
+    <string name="attractionsAndParks">Attractions And Parks</string>
+    <string name="museums">Museums</string>
+    <string name="malls">Malls</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="touristCallCenter">Tourist Call Center:</string>
+    <string name="insideKsa">Inside KSA: 19988</string>
+    <string name="International">International: +966–011–2614750</string>
+    <string name="imagePlace">Image of the Place</string>
+    <string name="about1">This App was developed by: Amer Alahmar</string>
+    <string name="about2">Email: alahmar.amer@gmail.com</string>
+    <string name="about3">I don\'t own the copyright of any of the Images or Information in the App</string>
+    <string name="about4">Sources of the information:</string>
+    <string name="about5">- tripadvisor.com\n- sauditourism.sa\n- taiftourism.sa\n- booking.com</string>
+</resources>

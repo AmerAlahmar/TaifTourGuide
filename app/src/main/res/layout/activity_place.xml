@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/placeImgImageView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/imagePlace"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/placeNameTextView"
+                style="@style/mainText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/placeImgImageView" />
+
+            <TextView
+                android:id="@+id/placeDescLongTextView"
+                style="@style/subText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/placeNameTextView"
+                android:layout_marginTop="4dp"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/phoneTitle"
+                style="@style/subMainText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/placeDescLongTextView"
+                android:layout_marginTop="32dp"
+                android:text="@string/phoneTitle" />
+
+            <TextView
+                android:id="@+id/placePhoneTextView"
+                style="@style/subText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/phoneTitle"
+                android:layout_toEndOf="@id/phoneTitle"
+                android:layout_toRightOf="@id/phoneTitle" />
+
+            <TextView
+                android:id="@+id/whTitle"
+                style="@style/subMainText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phoneTitle"
+                android:text="@string/whTitle" />
+
+            <TextView
+                android:id="@+id/placeWhTextView"
+                style="@style/subText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/whTitle"
+                android:layout_toEndOf="@id/whTitle"
+                android:layout_toRightOf="@id/whTitle" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            style="@style/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/navigation_arrow" />
+    </RelativeLayout>
+</RelativeLayout>

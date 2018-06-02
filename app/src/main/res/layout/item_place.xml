@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/round_corners"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/placeImgListImageView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:contentDescription="@string/imagePlace"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/placeNameListTextView"
+        style="@style/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/placeDescShortTextView"
+        style="@style/subText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
